@@ -31,7 +31,12 @@ public class Calc {
 		int num8 = 5;
 
 		int res4 = num7 / num8;
-		System.out.println(res4);
+		
+		if(num7 > num8) {
+			System.out.println(res4);
+			}
+		else {System.out.println("Invalid input");
+			}
 	}
 
 	public static void main(String[] args) {
